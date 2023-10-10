@@ -1,5 +1,8 @@
 # Wind Turbine Output Prediction using SCADA data
 
+## License
+This template is licensed to Customer subject to the terms of the license agreement between Domino and the Customer on file.
+
 ## Context
 In this project we train a predictive model on Supervisory Control and Data Acquisition (SCADA) data captured from a physical wind turbine. SCADA systems are used for controlling, monitoring, and analyzing industrial devices and processes. The SCADA concept was developed to be a universal means of remote-access to a variety of local control modules, which could be from different manufacturers and allowing access through standard automation protocols.
 
