@@ -28,5 +28,3 @@ This project contains the following assets
 
 ### Requirements
 This project can be run with the default [5.7 Domino Standard Environment Py3.9 R4.2.3](https://quay.io/domino/compute-environment-images:ubuntu20-py3.9-r4.2-domino5.7-standard) Compute Environment.
-
-No additional customisation is needed and all required Python packages are provided in the accompanying ```requirements.txt``` file.
