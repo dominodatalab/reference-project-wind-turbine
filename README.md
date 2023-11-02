@@ -27,4 +27,4 @@ This project contains the following assets
 * ```data/T1.csv``` --- the original dataset
 
 ### Requirements
-This project can be run with a Domino Standard Compute Environment that has Python 3.9 or above.
+Please refer to the AI Hub meta data to get information about the environment needed to run this project. Alternately, this project can be run with a Domino Standard Compute Environment that has Python 3.9 or above.
