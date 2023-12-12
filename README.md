@@ -26,5 +26,8 @@ This project contains the following assets
 * ```model.bin``` --- a pickled version of a pre-trained ```ExtraTreesRegressor``` model
 * ```data/T1.csv``` --- the original dataset
 
-### Requirements
-Please refer to the AI Hub meta data to get information about the environment needed to run this project. Alternately, this project can be run with a Domino Standard Compute Environment that has Python 3.9 or above.
+### Hardware Requirements
+This project works with a standard small-sized hardware tier, such as the small-k8s tier on all Domino deployments.
+
+### Environment Requirements
+This project can be run with a Domino Standard Compute Environment that has Python 3.9 or above.
