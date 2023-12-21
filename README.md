@@ -1,7 +1,10 @@
 # Wind Turbine Output Prediction using SCADA data
 
 ## License
-This template is licensed to Customer subject to the terms of the license agreement between Domino and the Customer on file.
+This template is licensed under Apache 2.0 and contains the following open source components: 
+* scikit-Learn [BSD 3](https://github.com/scikit-learn/scikit-learn/blob/main/COPYING)
+* pandas [BSD 3](https://github.com/pandas-dev/pandas/blob/main/LICENSE)
+* matplotlib [MDT](https://matplotlib.org/stable/users/project/license.html)
 
 ## Context
 In this project we train a predictive model on Supervisory Control and Data Acquisition (SCADA) data captured from a physical wind turbine. SCADA systems are used for controlling, monitoring, and analyzing industrial devices and processes. The SCADA concept was developed to be a universal means of remote-access to a variety of local control modules, which could be from different manufacturers and allowing access through standard automation protocols.
