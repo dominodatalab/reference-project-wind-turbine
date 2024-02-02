@@ -1,0 +1,53 @@
+{
+  "title": "Wind Turbine Output Prediction",
+  "id": "Wind Turbine Output Prediction",
+  "description": "This project trains a predictive model on Supervisory Control and Data Acquisition (SCADA) data captured from a physical wind turbine. SCADA systems are used for controlling, monitoring, and analyzing industrial devices and processes. The SCADA concept was developed to be a universal means of remote-access to a variety of local control modules, which could be from different manufacturers and allowing access through standard automation protocols. Here we demonstrate how we can train a machine learning model using a freely available SCADA dataset from Kaggle",
+  "base64Logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEyMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxsaW5lIHgxPSIxNS41IiB5MT0iMTciIHgyPSIxNS41IiB5Mj0iODMiIHN0cm9rZT0iI0U0RTRFNCIvPgo8bGluZSB4MT0iMTA1IiB5MT0iODIuNSIgeDI9IjE2IiB5Mj0iODIuNSIgc3Ryb2tlPSIjRTRFNEU0Ii8+CjxwYXRoIGQ9Ik0xNiA3OEwxMDEgMjIuNSIgc3Ryb2tlPSIjRjc5MEEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPGNpcmNsZSBjeD0iMjkiIGN5PSI2OSIgcj0iMiIgZmlsbD0iI0IyQkZGMyIvPgo8Y2lyY2xlIGN4PSIzNiIgY3k9IjUzIiByPSIyIiBmaWxsPSIjQjJCRkYzIi8+CjxjaXJjbGUgY3g9IjQ1IiBjeT0iNjAiIHI9IjIiIGZpbGw9IiNCMkJGRjMiLz4KPGNpcmNsZSBjeD0iNTAiIGN5PSI1NCIgcj0iMiIgZmlsbD0iI0IyQkZGMyIvPgo8Y2lyY2xlIGN4PSI0MiIgY3k9IjY2IiByPSIyIiBmaWxsPSIjQjJCRkYzIi8+CjxjaXJjbGUgY3g9IjY0IiBjeT0iNDkiIHI9IjIiIGZpbGw9IiNCMkJGRjMiLz4KPGNpcmNsZSBjeD0iNTciIGN5PSI0NyIgcj0iMiIgZmlsbD0iI0IyQkZGMyIvPgo8Y2lyY2xlIGN4PSI3MyIgY3k9IjM2IiByPSIyIiBmaWxsPSIjQjJCRkYzIi8+CjxjaXJjbGUgY3g9IjgyIiBjeT0iNDgiIHI9IjIiIGZpbGw9IiNCMkJGRjMiLz4KPGNpcmNsZSBjeD0iNzkiIGN5PSIzMiIgcj0iMiIgZmlsbD0iI0IyQkZGMyIvPgo8Y2lyY2xlIGN4PSI5MiIgY3k9IjI3IiByPSIyIiBmaWxsPSIjQjJCRkYzIi8+CjxjaXJjbGUgY3g9IjcyIiBjeT0iNDUiIHI9IjIiIGZpbGw9IiNCMkJGRjMiLz4KPC9zdmc+Cg==",
+  "categories": [
+    "IoT",
+    "Regression"
+  ],
+  "mainRepository": {
+    "uri": "https://github.com/dominodatalab/reference-project-wind-turbine",
+    "ref": {
+      "type": "commitId",
+      "value": "4717d003f684dc8c6daa98cc4e4ccde21482c7c5"
+    },
+    "serviceProvider": "github"
+  },
+  "owner": {
+    "name": "Domino",
+    "link": "https://domino.ai"
+  },
+  "models": [
+    {
+      "name": "Extra Trees Regressor",
+      "link": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesRegressor.html"
+    }
+  ],
+  "license": {
+    "name": "Apache 2.0",
+    "link": "https://github.com/dominodatalab/reference-project-wind-turbine#license"
+  },
+  "data": {
+    "name": "This project uses Supervisory Control and Data Acquisition (SCADA) data captured from a physical wind turbine. SCADA systems are used for controlling, monitoring, and analyzing industrial devices and processes.",
+    "link": "https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset"
+  },
+  "dataFormat": "csv",
+  "recommended": false,
+  "hardwareTier": {
+    "value": "This project works with a standard small-sized hardware tier, such as the small-k8s tier on all Domino deployments.",
+    "link": null
+  },
+  "environmentReqs": {
+    "value": "The code in this Template requires a DSE with Python 3.9 to run.",
+    "link": null
+  },
+  "supportedDominoVersions": [
+    "5.10.0"
+  ],
+  "test": {
+    "test_command": "tests/basic_checks.py",
+    "hardware_tier_id": "small-k8s"
+  }
+}
